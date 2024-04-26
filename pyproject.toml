@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "hrbuddy"
+version = "0.1.0"
+description = ""
+authors = ["Anuj Jindal <31108317+jindalAnuj@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyterlab = "^4.1.6"
+load-dotenv = "^0.1.0"
+llama-index = "^0.10.32"
+openai = "^1.23.6"
+pypdf = "^4.2.0"
+python-dotenv = "^1.0.1"
+ipykernel = "^6.29.4"
+notebook = "^7.1.3"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
